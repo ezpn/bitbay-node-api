@@ -14,11 +14,11 @@ test('invalid category', t => {
 });
 
 test('invalid first currency', t => {
-  return t.shouldFail(PublicApi.makeRequest('all', 'NMC'), Error);
+  return t.shouldFail(PublicApi.makeRequest('all', 'XXX010101'), Error);
 });
 
 test('invalid second currency', t => {
-  return t.shouldFail(PublicApi.makeRequest('all', 'USD', 'NMC'), Error);
+  return t.shouldFail(PublicApi.makeRequest('all', 'USD', 'XXX010101'), Error);
 });
 
 test('both currencies are identical', t => {
