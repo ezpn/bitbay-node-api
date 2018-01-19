@@ -36,6 +36,7 @@ const BitBayApi = (options) => {
 
   const createTrade = (type, currency, amount, payment_currency, rate) => {
     return PrivateApi.makeRequest('trade', {
+      type,
       currency,
       amount,
       payment_currency,
