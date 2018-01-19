@@ -1,5 +1,8 @@
-[![Build Status](https://travis-ci.org/ezpn/bitbay-node-api.svg?branch=master)](https://travis-ci.org/ezpn/bitbay-node-api)
 # BitBay Node.js Trading API
+
+[![Build Status](https://travis-ci.org/ezpn/bitbay-node-api.svg?branch=master)](https://travis-ci.org/ezpn/bitbay-node-api)
+[![Greenkeeper badge](https://badges.greenkeeper.io/ezpn/bitbay-node-api.svg)](https://greenkeeper.io/)
+
 Unofficial Bitbay.net cryptocurrency exchange api in JavaScript.
 
 ## Example API Usage
