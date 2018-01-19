@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/ezpn/bitbay-node-api#readme",
   "dependencies": {
-    "request": "^2.79.0",
+    "request": "^2.83.0",
     "request-promise": "^4.1.1"
   },
   "devDependencies": {
