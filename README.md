@@ -9,7 +9,7 @@ Unofficial Bitbay.net cryptocurrency exchange api in JavaScript.
 
 ```js
 const bitbay = require('bitbay-node-api')({
-  privateKey: '218r938jr3',
+  publicKey: '218r938jr3',
   secretKey: 'asd26a6s4dsdf1sdfdgdfg'
 });
 
